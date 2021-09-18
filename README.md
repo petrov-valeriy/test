@@ -2,8 +2,10 @@
 ```sh
 $ cd test/
 $ pip install -r requirements.txt
+$ chmod +x start_test.sh
 $ ./start_test.sh
-Параметры задаютсязадаются в файле conf.ini
+Перед запуском скрипта, необходимо настроить параметры скрипта.
+Параметры задаются в файле conf.ini
 storage_dir = /home/d103/v.petrov/test/server/storage ###Директория куда сохраняются данные
 archive_dir = /home/d103/v.petrov/test/nfs/archive    ###Директория куда сохраняются архивы с данными. Каталоги создаются автоматически, если их нет.
 DISK = /   ###Разметка диска для проверки места.
